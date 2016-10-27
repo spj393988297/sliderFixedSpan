@@ -15,6 +15,8 @@
 		75FE5F851D45F26C003C2DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FE5F831D45F26C003C2DE8 /* LaunchScreen.storyboard */; };
 		75FE5F901D45F26C003C2DE8 /* sliderFixedSpanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE5F8F1D45F26C003C2DE8 /* sliderFixedSpanTests.m */; };
 		75FE5F9B1D45F26C003C2DE8 /* sliderFixedSpanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE5F9A1D45F26C003C2DE8 /* sliderFixedSpanUITests.m */; };
+		75FE5FAA1D45F2B8003C2DE8 /* SPJSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE5FA91D45F2B8003C2DE8 /* SPJSlider.m */; };
+		75FE5FAD1D45F363003C2DE8 /* SPJColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE5FAC1D45F363003C2DE8 /* SPJColorHex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		75FE5F961D45F26C003C2DE8 /* sliderFixedSpanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderFixedSpanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE5F9A1D45F26C003C2DE8 /* sliderFixedSpanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderFixedSpanUITests.m; sourceTree = "<group>"; };
 		75FE5F9C1D45F26C003C2DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FE5FA81D45F2B8003C2DE8 /* SPJSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPJSlider.h; sourceTree = "<group>"; };
+		75FE5FA91D45F2B8003C2DE8 /* SPJSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPJSlider.m; sourceTree = "<group>"; };
+		75FE5FAB1D45F363003C2DE8 /* SPJColorHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPJColorHex.h; sourceTree = "<group>"; };
+		75FE5FAC1D45F363003C2DE8 /* SPJColorHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPJColorHex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				75FE5F791D45F26C003C2DE8 /* AppDelegate.m */,
 				75FE5F7B1D45F26C003C2DE8 /* ViewController.h */,
 				75FE5F7C1D45F26C003C2DE8 /* ViewController.m */,
+				75FE5FA81D45F2B8003C2DE8 /* SPJSlider.h */,
+				75FE5FA91D45F2B8003C2DE8 /* SPJSlider.m */,
+				75FE5FAB1D45F363003C2DE8 /* SPJColorHex.h */,
+				75FE5FAC1D45F363003C2DE8 /* SPJColorHex.m */,
 				75FE5F7E1D45F26C003C2DE8 /* Main.storyboard */,
 				75FE5F811D45F26C003C2DE8 /* Assets.xcassets */,
 				75FE5F831D45F26C003C2DE8 /* LaunchScreen.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FE5F7D1D45F26C003C2DE8 /* ViewController.m in Sources */,
+				75FE5FAA1D45F2B8003C2DE8 /* SPJSlider.m in Sources */,
 				75FE5F7A1D45F26C003C2DE8 /* AppDelegate.m in Sources */,
+				75FE5FAD1D45F363003C2DE8 /* SPJColorHex.m in Sources */,
 				75FE5F771D45F26C003C2DE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sliderFixedSpan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spj.sliderFixedSpan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sliderFixedSpan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spj.sliderFixedSpan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
